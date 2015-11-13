@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package fr.paug.droidcon.iowear.utils;
+package com.withgoogle.androiddevsummit.iowear.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;

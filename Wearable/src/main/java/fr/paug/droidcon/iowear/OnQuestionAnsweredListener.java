@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package fr.paug.droidcon.iowear;
+package com.withgoogle.androiddevsummit.iowear;
 
 /**
  * A simple interface for answering individual questions in a session feedback or submitting the

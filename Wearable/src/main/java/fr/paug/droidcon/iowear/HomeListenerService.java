@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package fr.paug.droidcon.iowear;
+package com.withgoogle.androiddevsummit.iowear;
 
-import static fr.paug.droidcon.iowear.utils.Utils.LOGD;
-import static fr.paug.droidcon.iowear.utils.Utils.makeLogTag;
+import static com.withgoogle.androiddevsummit.iowear.utils.Utils.LOGD;
+import static com.withgoogle.androiddevsummit.iowear.utils.Utils.makeLogTag;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -31,7 +31,7 @@ import com.google.android.gms.wearable.DataMapItem;
 import com.google.android.gms.wearable.PutDataMapRequest;
 import com.google.android.gms.wearable.Wearable;
 import com.google.android.gms.wearable.WearableListenerService;
-import fr.paug.droidcon.R;
+import com.withgoogle.androiddevsummit.R;
 
 import android.app.PendingIntent;
 import android.app.Service;

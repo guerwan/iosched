@@ -20,7 +20,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <fr.paug.droidcon.ui.widget.MessageCardView
+    <com.withgoogle.androiddevsummit.ui.widget.MessageCardView
         android:id="@+id/message_card"
         android:layout_width="match_parent"
         android:layout_marginTop="8dp"

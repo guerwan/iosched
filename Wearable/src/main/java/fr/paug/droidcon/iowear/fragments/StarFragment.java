@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package fr.paug.droidcon.iowear.fragments;
+package com.withgoogle.androiddevsummit.iowear.fragments;
 
-import fr.paug.droidcon.R;
-import fr.paug.droidcon.iowear.QuestionModel;
-import fr.paug.droidcon.iowear.WearableApplication;
+import com.withgoogle.androiddevsummit.R;
+import com.withgoogle.androiddevsummit.iowear.QuestionModel;
+import com.withgoogle.androiddevsummit.iowear.WearableApplication;
 
 import android.graphics.Typeface;
 import android.os.Bundle;

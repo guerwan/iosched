@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package fr.paug.droidcon.util;
+package com.withgoogle.androiddevsummit.util;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -34,7 +34,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toolbar;
 
-import fr.paug.droidcon.R;
+import com.withgoogle.androiddevsummit.R;
 
 import java.lang.Override;
 import java.util.List;

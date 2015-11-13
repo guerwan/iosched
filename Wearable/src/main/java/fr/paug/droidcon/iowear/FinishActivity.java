@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package fr.paug.droidcon.iowear;
+package com.withgoogle.androiddevsummit.iowear;
 
 import android.app.Activity;
 import android.graphics.Typeface;
@@ -22,7 +22,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import fr.paug.droidcon.R;
+import com.withgoogle.androiddevsummit.R;
 
 /**
  * A simple activity to show that the process of collection and submission of a session feedback has

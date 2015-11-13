@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package fr.paug.droidcon.iowear;
+package com.withgoogle.androiddevsummit.iowear;
 
 
-import fr.paug.droidcon.R;
+import com.withgoogle.androiddevsummit.R;
 
 import android.app.Application;
 

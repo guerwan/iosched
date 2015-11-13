@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package fr.paug.droidcon.iowear;
+package com.withgoogle.androiddevsummit.iowear;
 
-import static fr.paug.droidcon.iowear.utils.Utils.LOGD;
-import static fr.paug.droidcon.iowear.utils.Utils.makeLogTag;
+import static com.withgoogle.androiddevsummit.iowear.utils.Utils.LOGD;
+import static com.withgoogle.androiddevsummit.iowear.utils.Utils.makeLogTag;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -27,12 +27,12 @@ import com.google.android.gms.wearable.DataMap;
 import com.google.android.gms.wearable.PutDataMapRequest;
 import com.google.android.gms.wearable.PutDataRequest;
 import com.google.android.gms.wearable.Wearable;
-import fr.paug.droidcon.R;
-import fr.paug.droidcon.iowear.utils.Utils;
-import fr.paug.droidcon.iowear.fragments.FeedbackFragment;
-import fr.paug.droidcon.iowear.fragments.RadioFragment;
-import fr.paug.droidcon.iowear.fragments.StarFragment;
-import fr.paug.droidcon.iowear.fragments.SubmitFragment;
+import com.withgoogle.androiddevsummit.R;
+import com.withgoogle.androiddevsummit.iowear.utils.Utils;
+import com.withgoogle.androiddevsummit.iowear.fragments.FeedbackFragment;
+import com.withgoogle.androiddevsummit.iowear.fragments.RadioFragment;
+import com.withgoogle.androiddevsummit.iowear.fragments.StarFragment;
+import com.withgoogle.androiddevsummit.iowear.fragments.SubmitFragment;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -15,10 +15,10 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="fr.paug.droidcon">
+    package="com.withgoogle.droidcon">
 
     <application
-        android:name="fr.paug.droidcon.iowear.WearableApplication"
+        android:name="com.withgoogle.androiddevsummit.iowear.WearableApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -29,7 +29,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name="fr.paug.droidcon.iowear.PagerActivity"
+            android:name="com.withgoogle.androiddevsummit.iowear.PagerActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,7 +41,7 @@
         </activity>
 
         <activity
-            android:name="fr.paug.droidcon.iowear.FinishActivity"
+            android:name="com.withgoogle.androiddevsummit.iowear.FinishActivity"
             android:label="@string/thanks">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -49,7 +49,7 @@
         </activity>
 
         <activity
-            android:name="fr.paug.droidcon.iowear.NotificationActivity"
+            android:name="com.withgoogle.androiddevsummit.iowear.NotificationActivity"
             android:taskAffinity=""
             android:allowEmbedded="true">
             <intent-filter>
@@ -57,7 +57,7 @@
             </intent-filter>
         </activity>
 
-        <service android:name="fr.paug.droidcon.iowear.HomeListenerService">
+        <service android:name="com.withgoogle.androiddevsummit.iowear.HomeListenerService">
             <intent-filter>
                 <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
             </intent-filter>

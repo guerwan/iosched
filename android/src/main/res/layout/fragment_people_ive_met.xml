@@ -51,9 +51,9 @@
 
     </LinearLayout>
 
-    <fr.paug.droidcon.ui.widget.CollectionView
+    <com.withgoogle.androiddevsummit.ui.widget.CollectionView
         android:id="@+id/collection_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="fr.paug.droidcon.ui.PeopleIveMetFragment" />
+        tools:context="com.withgoogle.androiddevsummit.ui.PeopleIveMetFragment" />
 </LinearLayout>

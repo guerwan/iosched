@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package fr.paug.droidcon.ui.widget;
+package com.withgoogle.androiddevsummit.ui.widget;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -31,7 +31,7 @@ import android.view.View;
 import android.view.ViewAnimationUtils;
 import android.view.ViewGroup;
 
-import fr.paug.droidcon.R;
+import com.withgoogle.androiddevsummit.R;
 
 @TargetApi(Build.VERSION_CODES.L)
 public class AddToScheduleFABFrameLayout extends CheckableFrameLayout {

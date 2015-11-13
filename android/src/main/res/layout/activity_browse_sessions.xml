@@ -23,25 +23,25 @@
     tools:context=".ui.BrowseSessionsActivity">
 
     <!-- Main layout -->
-    <fr.paug.droidcon.ui.widget.DrawShadowFrameLayout
+    <com.withgoogle.androiddevsummit.ui.widget.DrawShadowFrameLayout
         android:id="@+id/main_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:clipChildren="false"
         app:shadowDrawable="@drawable/header_shadow">
 
-        <fr.paug.droidcon.ui.widget.MultiSwipeRefreshLayout
+        <com.withgoogle.androiddevsummit.ui.widget.MultiSwipeRefreshLayout
             android:id="@+id/swipe_refresh_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <!-- Sessions fragment showing the session grid -->
-            <fragment android:name="fr.paug.droidcon.ui.SessionsFragment"
+            <fragment android:name="com.withgoogle.androiddevsummit.ui.SessionsFragment"
                 android:id="@+id/sessions_fragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 tools:layout="@layout/fragment_sessions" />
-        </fr.paug.droidcon.ui.widget.MultiSwipeRefreshLayout>
+        </com.withgoogle.androiddevsummit.ui.widget.MultiSwipeRefreshLayout>
 
         <LinearLayout style="@style/HeaderBar"
             android:id="@+id/headerbar"
@@ -85,7 +85,7 @@
             android:layout_marginTop="?android:actionBarSize">
             <include layout="@layout/include_butter_bar" />
         </FrameLayout>
-    </fr.paug.droidcon.ui.widget.DrawShadowFrameLayout>
+    </com.withgoogle.androiddevsummit.ui.widget.DrawShadowFrameLayout>
 
     <!-- Nav drawer -->
     <include layout="@layout/navdrawer_for_ab_overlay" />

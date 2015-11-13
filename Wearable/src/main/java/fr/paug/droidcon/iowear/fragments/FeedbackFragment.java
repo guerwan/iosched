@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package fr.paug.droidcon.iowear.fragments;
+package com.withgoogle.androiddevsummit.iowear.fragments;
 
-import fr.paug.droidcon.iowear.OnQuestionAnsweredListener;
+import com.withgoogle.androiddevsummit.iowear.OnQuestionAnsweredListener;
 
 import android.app.Fragment;
 

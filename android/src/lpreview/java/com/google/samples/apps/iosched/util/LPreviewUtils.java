@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package fr.paug.droidcon.util;
+package com.withgoogle.androiddevsummit.util;
 
 import android.app.Activity;
 import android.os.Build;

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package fr.paug.droidcon.iowear;
+package com.withgoogle.androiddevsummit.iowear;
 
-import static fr.paug.droidcon.iowear.utils.Utils.LOGD;
-import static fr.paug.droidcon.iowear.utils.Utils.makeLogTag;
+import static com.withgoogle.androiddevsummit.iowear.utils.Utils.LOGD;
+import static com.withgoogle.androiddevsummit.iowear.utils.Utils.makeLogTag;
 
-import fr.paug.droidcon.R;
+import com.withgoogle.androiddevsummit.R;
 
 import android.app.Activity;
 import android.content.Intent;
