@@ -405,8 +405,8 @@ public abstract class BaseActivity extends Activity implements
         // Other items that are always in the nav drawer irrespective of whether the
         // attendee is on-site or remote:
 //        mNavDrawerItems.add(NAVDRAWER_ITEM_SOCIAL);
-        mNavDrawerItems.add(NAVDRAWER_ITEM_VIDEO_LIBRARY);
-        mNavDrawerItems.add(NAVDRAWER_ITEM_SPONSORS);
+//        mNavDrawerItems.add(NAVDRAWER_ITEM_VIDEO_LIBRARY);
+//        mNavDrawerItems.add(NAVDRAWER_ITEM_SPONSORS);
         mNavDrawerItems.add(NAVDRAWER_ITEM_DIRECTIONS);
 
         mNavDrawerItems.add(NAVDRAWER_ITEM_SEPARATOR_SPECIAL);
