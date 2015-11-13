@@ -222,31 +222,31 @@ public class WiFiUtils {
      * (in the overflow menu, for instance).
      */
     public static boolean shouldOfferToSetupWifi(final Context context, boolean actively) {
-        long now = UIUtils.getCurrentTime(context);
-        if (now < Config.WIFI_SETUP_OFFER_START) {
-            // too early to offer
-            return false;
-        }
-        if (now > Config.CONFERENCE_END_MILLIS) {
-            // too late
-            return false;
-        }
-        if (!WiFiUtils.isWiFiEnabled(context)) {
-            // no wifi, no offer
-            return false;
-        }
-        if (!PrefUtils.isAttendeeAtVenue(context)) {
-            // wifi setup not relevant
-            return false;
-        }
-        if (WiFiUtils.isWiFiApConfigured(context)) {
-            // already set up
-            return false;
-        }
-        if (actively && PrefUtils.hasDeclinedWifiSetup(context)) {
-            // user said no
-            return false;
-        }
-        return true;
+//        long now = UIUtils.getCurrentTime(context);
+//        if (now < Config.WIFI_SETUP_OFFER_START) {
+//            // too early to offer
+//            return false;
+//        }
+//        if (now > Config.CONFERENCE_END_MILLIS) {
+//            // too late
+//            return false;
+//        }
+//        if (!WiFiUtils.isWiFiEnabled(context)) {
+//            // no wifi, no offer
+//            return false;
+//        }
+//        if (!PrefUtils.isAttendeeAtVenue(context)) {
+//            // wifi setup not relevant
+//            return false;
+//        }
+//        if (WiFiUtils.isWiFiApConfigured(context)) {
+//            // already set up
+//            return false;
+//        }
+//        if (actively && PrefUtils.hasDeclinedWifiSetup(context)) {
+//            // user said no
+//            return false;
+//        }
+        return false;
     }
 }
