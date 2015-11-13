@@ -388,9 +388,9 @@ public class ScheduleContract {
                 BASE_CONTENT_URI.buildUpon().appendPath(PATH_BLOCKS).build();
 
         public static final String CONTENT_TYPE =
-                "vnd.android.cursor.dir/vnd.droidconparis2015.block";
+                "vnd.android.cursor.dir/vnd.androiddevsummit.block";
         public static final String CONTENT_ITEM_TYPE =
-                "vnd.android.cursor.item/vnd.droidconparis2015.block";
+                "vnd.android.cursor.item/vnd.androiddevsummit.block";
 
         /** "ORDER BY" clauses. */
         public static final String DEFAULT_SORT = BlocksColumns.BLOCK_START + " ASC, "
@@ -430,9 +430,9 @@ public class ScheduleContract {
                 BASE_CONTENT_URI.buildUpon().appendPath(PATH_TAGS).build();
 
         public static final String CONTENT_TYPE =
-                "vnd.android.cursor.dir/vnd.droidconparis2015.tag";
+                "vnd.android.cursor.dir/vnd.androiddevsummit.tag";
         public static final String CONTENT_ITEM_TYPE =
-                "vnd.android.cursor.item/vnd.droidconparis2015.tag";
+                "vnd.android.cursor.item/vnd.androiddevsummit.tag";
 
         /** Default "ORDER BY" clause. */
         public static final String DEFAULT_SORT = TagsColumns.TAG_ORDER_IN_CATEGORY;
@@ -464,9 +464,9 @@ public class ScheduleContract {
                 BASE_CONTENT_URI.buildUpon().appendPath(PATH_MY_SCHEDULE).build();
 
         public static final String CONTENT_TYPE =
-                "vnd.android.cursor.dir/vnd.droidconparis2015.myschedule";
+                "vnd.android.cursor.dir/vnd.androiddevsummit.myschedule";
         public static final String CONTENT_ITEM_TYPE =
-                "vnd.android.cursor.item/vnd.droidconparis2015.myschedule";
+                "vnd.android.cursor.item/vnd.androiddevsummit.myschedule";
 
         /**
          * Build {@link Uri} that references all My Schedule for the current user.
@@ -491,9 +491,9 @@ public class ScheduleContract {
                 BASE_CONTENT_URI.buildUpon().appendPath(PATH_ROOMS).build();
 
         public static final String CONTENT_TYPE =
-                "vnd.android.cursor.dir/vnd.droidconparis2015.room";
+                "vnd.android.cursor.dir/vnd.androiddevsummit.room";
         public static final String CONTENT_ITEM_TYPE =
-                "vnd.android.cursor.item/vnd.droidconparis2015.room";
+                "vnd.android.cursor.item/vnd.androiddevsummit.room";
 
         /** Default "ORDER BY" clause. */
         public static final String DEFAULT_SORT = RoomsColumns.ROOM_FLOOR + " ASC, "
@@ -523,9 +523,9 @@ public class ScheduleContract {
                 BASE_CONTENT_URI.buildUpon().appendPath(PATH_FEEDBACK).build();
 
         public static final String CONTENT_TYPE =
-                "vnd.android.cursor.dir/vnd.droidconparis2015.session_feedback";
+                "vnd.android.cursor.dir/vnd.androiddevsummit.session_feedback";
         public static final String CONTENT_ITEM_TYPE =
-                "vnd.android.cursor.item/vnd.droidconparis2015.session_feedback";
+                "vnd.android.cursor.item/vnd.androiddevsummit.session_feedback";
 
         /** Default "ORDER BY" clause. */
         public static final String DEFAULT_SORT = BaseColumns._ID + " ASC, ";
@@ -555,9 +555,9 @@ public class ScheduleContract {
                 CONTENT_URI.buildUpon().appendPath(PATH_MY_SCHEDULE).build();
 
         public static final String CONTENT_TYPE =
-                "vnd.android.cursor.dir/vnd.droidconparis2015.session";
+                "vnd.android.cursor.dir/vnd.androiddevsummit.session";
         public static final String CONTENT_ITEM_TYPE =
-                "vnd.android.cursor.item/vnd.droidconparis2015.session";
+                "vnd.android.cursor.item/vnd.androiddevsummit.session";
 
         public static final String ROOM_ID = "room_id";
 
@@ -733,9 +733,9 @@ public class ScheduleContract {
                 BASE_CONTENT_URI.buildUpon().appendPath(PATH_SPEAKERS).build();
 
         public static final String CONTENT_TYPE =
-                "vnd.android.cursor.dir/vnd.droidconparis2015.speaker";
+                "vnd.android.cursor.dir/vnd.androiddevsummit.speaker";
         public static final String CONTENT_ITEM_TYPE =
-                "vnd.android.cursor.item/vnd.droidconparis2015.speaker";
+                "vnd.android.cursor.item/vnd.androiddevsummit.speaker";
 
         /** Default "ORDER BY" clause. */
         public static final String DEFAULT_SORT = SpeakersColumns.SPEAKER_NAME
@@ -768,9 +768,9 @@ public class ScheduleContract {
                 BASE_CONTENT_URI.buildUpon().appendPath(PATH_ANNOUNCEMENTS).build();
 
         public static final String CONTENT_TYPE =
-                "vnd.android.cursor.dir/vnd.droidconparis2015.announcement";
+                "vnd.android.cursor.dir/vnd.androiddevsummit.announcement";
         public static final String CONTENT_ITEM_TYPE =
-                "vnd.android.cursor.item/vnd.droidconparis2015.announcement";
+                "vnd.android.cursor.item/vnd.androiddevsummit.announcement";
 
         /** Default "ORDER BY" clause. */
         public static final String DEFAULT_SORT = AnnouncementsColumns.ANNOUNCEMENT_DATE
@@ -796,8 +796,8 @@ public class ScheduleContract {
         public static final Uri CONTENT_URI = BASE_CONTENT_URI.buildUpon()
                 .appendPath(PATH_MAP_TILES).build();
 
-        public static final String CONTENT_TYPE = "vnd.android.cursor.dir/vnd.droidconparis2015.maptiles";
-        public static final String CONTENT_ITEM_TYPE = "vnd.android.cursor.item/vnd.droidconparis2015.maptiles";
+        public static final String CONTENT_TYPE = "vnd.android.cursor.dir/vnd.androiddevsummit.maptiles";
+        public static final String CONTENT_ITEM_TYPE = "vnd.android.cursor.item/vnd.androiddevsummit.maptiles";
 
         /** Default "ORDER BY" clause. */
         public static final String DEFAULT_SORT = MapTileColumns.TILE_FLOOR + " ASC";
@@ -827,8 +827,8 @@ public class ScheduleContract {
         public static final Uri CONTENT_URI = BASE_CONTENT_URI.buildUpon()
                 .appendPath(PATH_MAP_MARKERS).build();
 
-        public static final String CONTENT_TYPE = "vnd.android.cursor.dir/vnd.droidconparis2015.mapmarker";
-        public static final String CONTENT_ITEM_TYPE = "vnd.android.cursor.item/vnd.droidconparis2015.mapmarker";
+        public static final String CONTENT_TYPE = "vnd.android.cursor.dir/vnd.androiddevsummit.mapmarker";
+        public static final String CONTENT_ITEM_TYPE = "vnd.android.cursor.item/vnd.androiddevsummit.mapmarker";
 
         /** Default "ORDER BY" clause. */
         public static final String DEFAULT_SORT = MapMarkerColumns.MARKER_FLOOR
@@ -869,8 +869,8 @@ public class ScheduleContract {
         public static final Uri CONTENT_URI = BASE_CONTENT_URI.buildUpon()
                 .appendPath(PATH_HASHTAGS).build();
 
-        public static final String CONTENT_TYPE = "vnd.android.cursor.dir/vnd.droidconparis2015.hashtags";
-        public static final String CONTENT_ITEM_TYPE = "vnd.android.cursor.item/vnd.droidconparis2015.hashtags";
+        public static final String CONTENT_TYPE = "vnd.android.cursor.dir/vnd.androiddevsummit.hashtags";
+        public static final String CONTENT_ITEM_TYPE = "vnd.android.cursor.item/vnd.androiddevsummit.hashtags";
 
         /** Build {@link Uri} for requested hashtag. */
         public static Uri buildHashtagUri(String hashtag) {
@@ -891,8 +891,8 @@ public class ScheduleContract {
         public static final Uri CONTENT_URI = BASE_CONTENT_URI.buildUpon()
                 .appendPath(PATH_VIDEOS).build();
 
-        public static final String CONTENT_TYPE = "vnd.android.cursor.dir/vnd.droidconparis2015.videos";
-        public static final String CONTENT_ITEM_TYPE = "vnd.android.cursor.item/vnd.droidconparis2015.videos";
+        public static final String CONTENT_TYPE = "vnd.android.cursor.dir/vnd.androiddevsummit.videos";
+        public static final String CONTENT_ITEM_TYPE = "vnd.android.cursor.item/vnd.androiddevsummit.videos";
 
         public static final String DEFAULT_SORT = VideoColumns.VIDEO_YEAR + " DESC, "
                 + VideoColumns.VIDEO_TOPIC + " ASC, " + VideoColumns.VIDEO_TITLE + " ASC";
@@ -929,9 +929,9 @@ public class ScheduleContract {
                 BASE_CONTENT_URI.buildUpon().appendPath(PATH_EXPERTS).build();
 
         public static final String CONTENT_TYPE =
-                "vnd.android.cursor.dir/vnd.droidconparis2015.expert";
+                "vnd.android.cursor.dir/vnd.androiddevsummit.expert";
         public static final String CONTENT_ITEM_TYPE =
-                "vnd.android.cursor.item/vnd.droidconparis2015.expert";
+                "vnd.android.cursor.item/vnd.androiddevsummit.expert";
 
         /** Default "ORDER BY" clause. */
         public static final String DEFAULT_SORT = ExpertsColumns.EXPERT_NAME
@@ -955,9 +955,9 @@ public class ScheduleContract {
                 BASE_CONTENT_URI.buildUpon().appendPath(PATH_PARTNERS).build();
 
         public static final String CONTENT_TYPE =
-                "vnd.android.cursor.dir/vnd.droidconparis2015.partner";
+                "vnd.android.cursor.dir/vnd.androiddevsummit.partner";
         public static final String CONTENT_ITEM_TYPE =
-                "vnd.android.cursor.item/vnd.droidconparis2015.partner";
+                "vnd.android.cursor.item/vnd.androiddevsummit.partner";
 
         /** Build {@link Uri} for requested {@link #PARTNER_ID}. */
         public static Uri buildPartnerUri(String partnerId) {
@@ -978,9 +978,9 @@ public class ScheduleContract {
         public static final String DEFAULT_SORT = PeopleIveMetColumns.PERSON_TIMESTAMP + " DESC";
 
         public static final String CONTENT_TYPE =
-                "vnd.android.cursor.dir/vnd.droidconparis2015.people_ive_met";
+                "vnd.android.cursor.dir/vnd.androiddevsummit.people_ive_met";
         public static final String CONTENT_ITEM_TYPE =
-                "vnd.android.cursor.item/vnd.droidconparis2015.people_ive_met";
+                "vnd.android.cursor.item/vnd.androiddevsummit.people_ive_met";
 
         public static Uri buildPersonUri(String personId) {
             return CONTENT_URI.buildUpon().appendPath(personId).build();
