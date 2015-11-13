@@ -33,7 +33,7 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
     private static final String TAG = makeLogTag(SyncAdapter.class);
 
     private static final Pattern sSanitizeAccountNamePattern = Pattern.compile("(.).*?(.?)@");
-    public static final String EXTRA_SYNC_USER_DATA_ONLY = "com.withgoogle.droidcon.EXTRA_SYNC_USER_DATA_ONLY";;
+    public static final String EXTRA_SYNC_USER_DATA_ONLY = "com.withgoogle.androiddevsummit.EXTRA_SYNC_USER_DATA_ONLY";;
 
     private final Context mContext;
 

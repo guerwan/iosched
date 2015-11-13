@@ -318,7 +318,7 @@ public class ScheduleContract {
         String VIDEO_IMPORT_HASHCODE = "video_import_hashcode";
     }
 
-    public static final String CONTENT_AUTHORITY = "com.withgoogle.droidcon";
+    public static final String CONTENT_AUTHORITY = "com.withgoogle.androiddevsummit";
 
     public static final Uri BASE_CONTENT_URI = Uri.parse("content://" + CONTENT_AUTHORITY);
 

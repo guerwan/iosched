@@ -15,7 +15,7 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.withgoogle.droidcon">
+    package="com.withgoogle.androiddevsummit">
 
     <application
         android:name="com.withgoogle.androiddevsummit.iowear.WearableApplication"

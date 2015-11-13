@@ -498,7 +498,7 @@
     <string name="search_label">Sessions Android Dev Summit</string>
 
     <!-- A fragment of text appended to a Google calendar event indicating it was added by this application -->
-    <string name="session_calendar_suffix">- ajouté par l\'application Android Droidcon Paris</string>
+    <string name="session_calendar_suffix">- ajouté par l\'application Android Dev Summit</string>
 
     <!-- Accessibility text announced as a response to pressing a button to add a session to the schedule. -->
     <string name="session_details_a11y_session_added">Session ajoutée à votre agenda</string>
@@ -731,7 +731,7 @@
     <string name="welcome_text">Avant de commencer, voici quelques informations juridiques importantes concernant votre utilisation de cette application. Cela ne vous prendra qu\'une minute à lire !</string>
 
     <!-- Short text welcoming the user to the application -->
-    <string name="welcome_to_google_i_o_app">Bienvenue dans l\'application Droidcon Paris !</string>
+    <string name="welcome_to_google_i_o_app">Bienvenue dans l\'application Android Dev Summit !</string>
 
     <!-- Text for a button which will add a wi-fi network -->
     <string name="wifi_dialog_button_configure">Ajouter un réseau Wi-Fi</string>

@@ -42,9 +42,9 @@ public class ScheduleWidgetProvider extends AppWidgetProvider {
     private static final String TAG = makeLogTag(ScheduleWidgetProvider.class);
 
     private static final String REFRESH_ACTION =
-            "com.withgoogle.droidcon.appwidget.action.REFRESH";
+            "com.withgoogle.androiddevsummit.appwidget.action.REFRESH";
     private static final String EXTRA_PERFORM_SYNC =
-            "com.withgoogle.droidcon.appwidget.extra.PERFORM_SYNC";
+            "com.withgoogle.androiddevsummit.appwidget.extra.PERFORM_SYNC";
 
     public static Intent getRefreshBroadcastIntent(Context context, boolean performSync) {
         return new Intent(REFRESH_ACTION)

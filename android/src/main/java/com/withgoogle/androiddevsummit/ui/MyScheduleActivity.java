@@ -97,20 +97,20 @@ public class MyScheduleActivity extends BaseActivity implements MyScheduleFragme
     boolean mDestroyed = false;
 
     private static final String ARG_CONFERENCE_DAY_INDEX
-            = "com.withgoogle.droidcon.ARG_CONFERENCE_DAY_INDEX";
+            = "com.withgoogle.androiddevsummit.ARG_CONFERENCE_DAY_INDEX";
 
     private Set<MyScheduleFragment> mMyScheduleFragments = new HashSet<MyScheduleFragment>();
 
     public static final String EXTRA_DIALOG_TITLE
-            = "com.withgoogle.droidcon.EXTRA_DIALOG_TITLE";
+            = "com.withgoogle.androiddevsummit.EXTRA_DIALOG_TITLE";
     public static final String EXTRA_DIALOG_MESSAGE
-            = "com.withgoogle.droidcon.EXTRA_DIALOG_MESSAGE";
+            = "com.withgoogle.androiddevsummit.EXTRA_DIALOG_MESSAGE";
     public static final String EXTRA_DIALOG_YES
-            = "com.withgoogle.droidcon.EXTRA_DIALOG_YES";
+            = "com.withgoogle.androiddevsummit.EXTRA_DIALOG_YES";
     public static final String EXTRA_DIALOG_NO
-            = "com.withgoogle.droidcon.EXTRA_DIALOG_NO";
+            = "com.withgoogle.androiddevsummit.EXTRA_DIALOG_NO";
     public static final String EXTRA_DIALOG_URL
-            = "com.withgoogle.droidcon.EXTRA_DIALOG_URL";
+            = "com.withgoogle.androiddevsummit.EXTRA_DIALOG_URL";
 
     private boolean mShowedAnnouncementDialog = false;
 

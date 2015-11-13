@@ -75,7 +75,7 @@ public class UIUtils {
 
 
     public static final String TARGET_FORM_FACTOR_ACTIVITY_METADATA =
-            "com.withgoogle.droidcon.meta.TARGET_FORM_FACTOR";
+            "com.withgoogle.androiddevsummit.meta.TARGET_FORM_FACTOR";
 
     public static final String TARGET_FORM_FACTOR_HANDSET = "handset";
     public static final String TARGET_FORM_FACTOR_TABLET = "tablet";

@@ -211,7 +211,7 @@
         <receiver android:name=".receiver.SessionAlarmReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="com.withgoogle.droidcon.action.UPDATE_CALENDAR_COMPLETED" />
+                <action android:name="com.withgoogle.androiddevsummit.action.UPDATE_CALENDAR_COMPLETED" />
             </intent-filter>
         </receiver>
         <service android:name=".service.SessionAlarmService" />
@@ -242,7 +242,7 @@
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
                 <!-- Receives the registration id. -->
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
-                <category android:name="com.withgoogle.droidcon" />
+                <category android:name="com.withgoogle.androiddevsummit" />
             </intent-filter>
         </receiver>
 
@@ -260,7 +260,7 @@
         <provider
             android:name=".provider.ScheduleProvider"
             android:authorities="com.withgoogle.androiddevsummit"
-            android:writePermission="com.withgoogle.droidcon.permission.WRITE_SCHEDULE"
+            android:writePermission="com.withgoogle.androiddevsummit.permission.WRITE_SCHEDULE"
             android:syncable="true"
             android:label="@string/app_name"
             android:exported="true" />
@@ -310,7 +310,7 @@
                 <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.withgoogle.droidcon.ACTION_NOTIFICATION_DISMISSAL"/>
+                <action android:name="com.withgoogle.androiddevsummit.ACTION_NOTIFICATION_DISMISSAL"/>
             </intent-filter>
         </service>
         <meta-data android:name="com.crashlytics.ApiKey" android:value="5e88e82cffd6811dda2781377781cac493200287"/>

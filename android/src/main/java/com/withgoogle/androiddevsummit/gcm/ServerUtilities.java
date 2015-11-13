@@ -39,7 +39,7 @@ import static com.withgoogle.androiddevsummit.util.LogUtils.*;
 public final class ServerUtilities {
     private static final String TAG = makeLogTag("GCMs");
 
-    private static final String PREFERENCES = "com.withgoogle.droidcon.gcm";
+    private static final String PREFERENCES = "com.withgoogle.androiddevsummit.gcm";
     private static final String PROPERTY_REGISTERED_TS = "registered_ts";
     private static final String PROPERTY_REG_ID = "reg_id";
     private static final String PROPERTY_GCM_KEY = "gcm_key";

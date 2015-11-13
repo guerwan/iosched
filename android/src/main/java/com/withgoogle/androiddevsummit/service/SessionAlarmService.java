@@ -60,25 +60,25 @@ public class SessionAlarmService extends IntentService
     private static final String TAG = makeLogTag(SessionAlarmService.class);
 
     public static final String ACTION_NOTIFY_SESSION =
-            "com.withgoogle.droidcon.action.NOTIFY_SESSION";
+            "com.withgoogle.androiddevsummit.action.NOTIFY_SESSION";
     public static final String ACTION_SCHEDULE_STARRED_BLOCK =
-            "com.withgoogle.droidcon.action.SCHEDULE_STARRED_BLOCK";
+            "com.withgoogle.androiddevsummit.action.SCHEDULE_STARRED_BLOCK";
     public static final String ACTION_SCHEDULE_ALL_STARRED_BLOCKS =
-            "com.withgoogle.droidcon.action.SCHEDULE_ALL_STARRED_BLOCKS";
+            "com.withgoogle.androiddevsummit.action.SCHEDULE_ALL_STARRED_BLOCKS";
     public static final String EXTRA_SESSION_START =
-            "com.withgoogle.droidcon.extra.SESSION_START";
+            "com.withgoogle.androiddevsummit.extra.SESSION_START";
     public static final String EXTRA_SESSION_END =
-            "com.withgoogle.droidcon.extra.SESSION_END";
+            "com.withgoogle.androiddevsummit.extra.SESSION_END";
     public static final String EXTRA_SESSION_ALARM_OFFSET =
-            "com.withgoogle.droidcon.extra.SESSION_ALARM_OFFSET";
+            "com.withgoogle.androiddevsummit.extra.SESSION_ALARM_OFFSET";
     public static final String EXTRA_SESSION_ID =
-            "com.withgoogle.droidcon.extra.SESSION_ID";
+            "com.withgoogle.androiddevsummit.extra.SESSION_ID";
     public static final String EXTRA_SESSION_TITLE =
-            "com.withgoogle.droidcon.extra.SESSION_TITLE";
+            "com.withgoogle.androiddevsummit.extra.SESSION_TITLE";
     public static final String EXTRA_SESSION_ROOM =
-            "com.withgoogle.droidcon.extra.SESSION_ROOM";
+            "com.withgoogle.androiddevsummit.extra.SESSION_ROOM";
     public static final String EXTRA_SESSION_SPEAKERS =
-            "com.withgoogle.droidcon.extra.SESSION_SPEAKERS";
+            "com.withgoogle.androiddevsummit.extra.SESSION_SPEAKERS";
 
     public static final int NOTIFICATION_ID = 100;
     public static final int FEEDBACK_NOTIFICATION_ID = 101;
@@ -198,7 +198,7 @@ public class SessionAlarmService extends IntentService
                 SessionAlarmService.class);
         // Setting data to ensure intent's uniqueness for different session start times.
         notifIntent.setData(
-                new Uri.Builder().authority("com.withgoogle.droidcon")
+                new Uri.Builder().authority("com.withgoogle.androiddevsummit")
                         .path(String.valueOf(sessionStart)).build()
         );
         notifIntent.putExtra(SessionAlarmService.EXTRA_SESSION_START, sessionStart);
