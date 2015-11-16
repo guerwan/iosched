@@ -20,8 +20,8 @@ import java.util.*;
 
 public class ScheduleItemHelper {
 
-    private static final long FREE_BLOCK_MINIMUM_LENGTH = 10 * 60 * 1000; // 10 minutes
-    public static final long ALLOWED_OVERLAP = 5 * 60 * 1000; // 5 minutes
+    private static final long FREE_BLOCK_MINIMUM_LENGTH = 5 * 60 * 1000; // 10 minutes
+    public static final long ALLOWED_OVERLAP = 4 * 60 * 1000; // 5 minutes
 
     /**
      * Find and resolve time slot conflicts.
