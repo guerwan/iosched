@@ -423,7 +423,7 @@
     <string name="pref_attendee_at_venue_description">Si cette option est cochée, tous les événements et sessions sur place seront affichés. Seules les séances en direct seront affichées dans le cas contraire.</string>
 
     <!-- Title in the Settings screen for the "I will be at Google I/O" option -->
-    <string name="pref_attendee_at_venue_title">Je serai à l'Android Dev Summit !</string>
+    <string name="pref_attendee_at_venue_title">Je serai à l\'Android Dev Summit !</string>
 
     <!-- Summary in the Settings screen for the "Show local times" option -->
     <string name="pref_local_times_description">Si cette option est cochée, l\'heure locale de votre appareil sera utilisée pour les différentes heures affichées. L\'heure locale de la conférence sera utilisée dans le cas contraire.</string>
@@ -459,11 +459,11 @@
 
     <!-- Text of a card shown in the session explorer after I/O has started that asks the user if
     he wants to configure the WiFi. "Yes!" and "No, thanks" are the buttons shown in the card -->
-    <string name="question_setup_wifi_after_i_o_start">L'Android Dev Summit, c\'est maintenant ! Aimeriez-vous configurer tout de suite le Wi-Fi de la conférence ?</string>
+    <string name="question_setup_wifi_after_i_o_start">L\'Android Dev Summit, c\'est maintenant ! Aimeriez-vous configurer tout de suite le Wi-Fi de la conférence ?</string>
 
     <!-- Text of a card shown in the session explorer before I/O has started that asks the user if
     he wants to configure the WiFi. "Yes!" and "No, thanks" are the buttons shown in the card -->
-    <string name="question_setup_wifi_before_i_o_start">L'Android Dev Summit arrive ! Aimeriez-vous configurer tout de suite le Wi-Fi de la conférence ?</string>
+    <string name="question_setup_wifi_before_i_o_start">L\'Android Dev Summit arrive ! Aimeriez-vous configurer tout de suite le Wi-Fi de la conférence ?</string>
 
     <!-- Section title for videos related to a particular event session -->
     <string name="related_videos">Vidéos associées</string>
