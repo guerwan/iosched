@@ -770,7 +770,7 @@ public abstract class BaseActivity extends Activity implements
                 finish();
                 break;
             case NAVDRAWER_ITEM_DIRECTIONS:
-                String uri = "geo:48.8719444,2.3572243?q=67+Rue+du+Faubourg+Saint-Martin,+75010+Paris";
+                String uri = "geo:37.4142744,-122.0795977?q=Computer+History+Museum";
                 startActivity(new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(uri)));
                 break;
         }
