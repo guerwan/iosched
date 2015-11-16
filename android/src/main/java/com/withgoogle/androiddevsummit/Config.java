@@ -33,8 +33,8 @@ public class Config {
     public static final String DOGFOOD_BUILD_WARNING_TEXT = "This is a test build.";
 
     // Public data manifest URL
-    public static final String PROD_CONFERENCE_DATA_MANIFEST_URL = "http://droidcon2015.parseapp.com/manifest.json";
-    public static final String PREPROD_CONFERENCE_DATA_MANIFEST_URL = "http://droidcon2015preprod.parseapp.com/manifest.json";
+    public static final String PROD_CONFERENCE_DATA_MANIFEST_URL = "http://androiddevsummit.parseapp.com/manifest.json";
+    public static final String PREPROD_CONFERENCE_DATA_MANIFEST_URL = "http://androiddevsummitpre.parseapp.com/manifest.json";
 
     // Manifest URL override for Debug (staging) builds:
     public static final String MANIFEST_URL = PREPROD_CONFERENCE_DATA_MANIFEST_URL;
@@ -55,7 +55,7 @@ public class Config {
 
     public static final long[][] CONFERENCE_DAYS = new long[][] {
             // start and end of day 1
-            { ParserUtils.parseTime("2015-11-23T22:15:00.000Z"),
+            { ParserUtils.parseTime("2015-11-23T15:00:00.000Z"),
               ParserUtils.parseTime("2015-11-24T08:00:00.000Z") },
             // start and end of day 2
             { ParserUtils.parseTime("2015-11-24T08:00:00.001Z"),
