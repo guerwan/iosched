@@ -275,7 +275,7 @@
         {
             "id": "intro_devsummit",
             "description": "",
-            "photoUrl": "",
+            "photoUrl": "https://pbs.twimg.com/media/CL0yuM7WgAAqPqL.jpg",
             "url": "",
             "startTimestamp": "2015-11-23T17:00:00Z",
             "title": "Intro",
@@ -299,7 +299,7 @@
         {
             "id": "__keynote2___devsummit",
             "description": "Keynote: Opening Keynote by Dave Burke, VP of Android Engineering",
-            "photoUrl": "",
+            "photoUrl": "http://img.24liveblog.com/2014/06/26/1403713863982674.png",
             "url": "",
             "startTimestamp": "2015-11-23T17:05:00Z",
             "title": "Keynote",
@@ -347,7 +347,7 @@
         {
             "id": "session_florian_devsummit",
             "description": "Overview of the Android Notification UI and APIs, with special focus on respecting user attention.",
-            "photoUrl": "",
+            "photoUrl": "https://i.ytimg.com/vi/Wn7qWrMWlH8/maxresdefault.jpg",
             "url": "",
             "startTimestamp": "2015-11-23T19:00:00Z",
             "title": "Respecting User Attention: Notification Best Practices",
@@ -370,7 +370,7 @@
         {
             "id": "session_pod_devsummit",
             "description": "Best Practices: Store Listing Experiments, Beta testing, Pre-Reg",
-            "photoUrl": "",
+            "photoUrl": "https://i.ytimg.com/vi/rm3NWjrep2Y/maxresdefault.jpg",
             "url": "",
             "startTimestamp": "2015-11-23T19:00:00Z",
             "title": "Secrets To App & Game Success On Google Play",
@@ -417,7 +417,7 @@
         {
             "id": "session_eyal_lezmy_devsummit",
             "description": "Recent versions of Android have significant advances in typographic sophistication, including automatic hyphenation, balanced and optimized paragraph layout, OpenType features, support for dozens of scripts around the world, and more. We’ll cover these capabilities and how apps can make best use of them.",
-            "photoUrl": "",
+            "photoUrl": "https://i.ytimg.com/vi/d3kfEeMZ65c/maxresdefault.jpg",
             "url": "",
             "startTimestamp": "2015-11-23T19:45:00Z",
             "title": "Android Textual Layout",
@@ -440,7 +440,7 @@
         {
             "id": "session_marc_de_courville_devsummit",
             "description": "We will go into details of how RecyclerView animations work, what are the considerations and how you can extend them.",
-            "photoUrl": "",
+            "photoUrl": "https://i.ytimg.com/vi/3TtVsy98ces/maxresdefault.jpg",
             "url": "",
             "startTimestamp": "2015-11-23T21:30:00Z",
             "title": "RecyclerView Animations And Behind The Scenes",
@@ -485,7 +485,7 @@
         {
             "id": "session_madispink_devsummit",
             "description": "The Android Support Libraries contain great libraries which help you jump-start your Android app. As with all things which are backwards compatible though, there are quite a few gotchas along the way.",
-            "photoUrl": "",
+            "photoUrl": "http://d2uetvsama7sl8.cloudfront.net/prod/wp-content/uploads/2015/09/04170842/IMG_20150828_100931.jpg",
             "url": "",
             "startTimestamp": "2015-11-23T22:15:00Z",
             "title": "Support Library: Guts And Glory",
@@ -596,7 +596,7 @@
         {
             "id": "session_pierre_crepieux_devsummit",
             "description": "Fireside chat with the Android Framework team. Prepare your questions!",
-            "photoUrl": "",
+            "photoUrl": "http://i.ytimg.com/vi/PhTRF8qdpeg/maxresdefault.jpg",
             "url": "",
             "startTimestamp": "2015-11-24T00:15:00Z",
             "title": "Framework Fireside Chat",
@@ -640,7 +640,7 @@
         {
             "id": "session_pierre_benayoun_devsummit",
             "description": "Since Google I/O, we have added a few new features to help in your development workflow. In this session we will provide a quick tour of the new developments & features in Android Studio.",
-            "photoUrl": "",
+            "photoUrl": "https://i.ytimg.com/vi/f7ihSQ44WO0/maxresdefault.jpg",
             "url": "",
             "startTimestamp": "2015-11-24T17:00:00Z",
             "title": "What's New In Android Studio",
@@ -665,7 +665,7 @@
         {
             "id": "session_xavierhallade_devsummit",
             "description": "Android Data Binding, introduced at Google I/O as a preview, allows developers to write applications faster, easier, with fewer bugs, and with no performance impact. By adding a binding expression to your layout XML, you can tie the data model back end to your UI. See how this is done and some of the magic that is happening behind the scenes that makes this possible.",
-            "photoUrl": "",
+            "photoUrl": "https://embed-ssl.wistia.com/deliveries/d6ba683f81b9cf14d51326169d1d2e9e4843f309.jpg",
             "url": "",
             "startTimestamp": "2015-11-24T17:45:00Z",
             "title": "Data Binding -- Write Apps Faster",
@@ -712,7 +712,7 @@
         {
             "id": "session_mathieucalba_devsummit",
             "description": "",
-            "photoUrl": "",
+            "photoUrl": "https://i.ytimg.com/vi/luQntt_4TeM/maxresdefault.jpg",
             "url": "",
             "startTimestamp": "2015-11-24T19:00:00Z",
             "title": "The Android Build System",
@@ -735,7 +735,7 @@
         {
             "id": "session_etiennecaron_devsummit",
             "description": "There's a difference between App Standby (where your app goes to sleep because it's lonely) and Doze (where the system went to sleep because users have lives). Learn how to reliably work around or wake up from those power naps.",
-            "photoUrl": "",
+            "photoUrl": "https://i.ytimg.com/vi/E5vv7_G4tcE/maxresdefault.jpg",
             "url": "",
             "startTimestamp": "2015-11-24T19:00:00Z",
             "title": "App Standby Vs Doze: Understanding System Sleep",
@@ -758,7 +758,7 @@
         {
             "id": "session_brianegan_devsummit",
             "description": "Writing automated software tests should be a fundamental part of your app development strategy. Writing tests helps you to quickly catch and fix software regressions introduced by code changes to your app. In this talk, we'll give you an overview of the testing tools and frameworks provided by Google and show you how they can help you to iterate more quickly and maintain a more healthy codebase.",
-            "photoUrl": "",
+            "photoUrl": "http://androiddevsummitpre.parseapp.com/speaker.jpg",
             "url": "",
             "startTimestamp": "2015-11-24T19:45:00Z",
             "title": "Android Testing",
@@ -806,7 +806,7 @@
         {
             "id": "session_damiencavailles_devsummit",
             "description": "Android Studio has a range of features that target experience developers. This session will take an in-depth look into some of the advanced features of Android Studio and you can take away new productivity tips to help in app development.",
-            "photoUrl": "",
+            "photoUrl": "http://blogerator.ru/uploads/pix2013/android-stusio-2.jpg",
             "url": "",
             "startTimestamp": "2015-11-24T21:30:00Z",
             "title": "Android Studio For Experts",
@@ -851,7 +851,7 @@
         {
             "id": "session_turhan_devsummit",
             "description": "",
-            "photoUrl": "",
+            "photoUrl": "http://www.paug.fr/wordpress/wp-content/uploads/2013/11/2013-11-07_romain_chet.jpg",
             "url": "",
             "startTimestamp": "2015-11-24T23:30:00Z",
             "title": "Developing For Android: The Naughty Bits",
@@ -875,7 +875,7 @@
         {
             "id": "session_billphillips_devsummit",
             "description": "Fireside chat with the Android Studio/Tools team. Prepare your questions!",
-            "photoUrl": "",
+            "photoUrl": "http://i.iinfo.cz/images/478/reto-meier-1.jpg",
             "url": "",
             "startTimestamp": "2015-11-25T00:15:00Z",
             "title": "Android Tools And Testing Fireside Chat",
@@ -898,7 +898,7 @@
         {
             "id": "session_alizee_devsummit",
             "description": "",
-            "photoUrl": "",
+            "photoUrl": "https://pbs.twimg.com/media/CL0yuM7WgAAqPqL.jpg:large",
             "url": "",
             "startTimestamp": "2015-11-25T01:00:00Z",
             "title": "Closing Notes",
