@@ -18,8 +18,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.withgoogle.androiddevsummit"
-    android:versionCode="9"
-    android:versionName="1.1"
+    android:versionCode="10"
+    android:versionName="1.0"
     android:installLocation="auto">
 
     <!-- targetSdkVersion set to 19 from build.gradle on non-L-preview builds -->
