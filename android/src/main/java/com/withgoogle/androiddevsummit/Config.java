@@ -37,7 +37,7 @@ public class Config {
     public static final String PREPROD_CONFERENCE_DATA_MANIFEST_URL = "http://androiddevsummitpre.parseapp.com/manifest.json";
 
     // Manifest URL override for Debug (staging) builds:
-    public static final String MANIFEST_URL = PREPROD_CONFERENCE_DATA_MANIFEST_URL;
+    public static final String MANIFEST_URL = PROD_CONFERENCE_DATA_MANIFEST_URL;
 
     public static final String BOOTSTRAP_DATA_TIMESTAMP = "Mon, 23 Nov 2015 00:01:03 GMT";
 
